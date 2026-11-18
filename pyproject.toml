@@ -1,0 +1,35 @@
+[project]
+name = "raspi-pi-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "aubio>=0.4.9",
+    "gpiozero>=2.0.1",
+    "httpx>=0.28.1",
+    "langchain>=0.3.27",
+    "langchain-community>=0.4",
+    "langchain-google-community>=3.0.0",
+    "langchain-google-genai>=2.1.10",
+    "google-genai>=1.0.0",
+    "langgraph>=0.6.6",
+    "langsmith>=0.4.21",
+    "lgpio>=0.2.2.0",
+    "numpy>=2.1.0,<3",
+    "openai-whisper>=20250625",
+    "pillow>=10.0.0",
+    "pigpio>=1.78",
+    "pvporcupine>=3.0.5",
+    "pyaudio>=0.2.14",
+    "python-dotenv>=1.1.1",
+    "pyttsx3>=2.99",
+    "requests>=2.31.0",
+    "resend>=2.13.1",
+    "rich>=14.1.0",
+    "setuptools>=80.9.0",
+    "sounddevice>=0.5.2",
+    "speechrecognition>=3.14.3",
+    "yt-dlp>=2025.10.18.232824.dev0",
+    "picamzero>=1.0.2",
+]

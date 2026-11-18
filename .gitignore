@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments & environment variables
+.venv/
+venv/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Media & captured files
+*.wav
+*.jpg
+*.jpeg
+*.png
+helloworld.jpg
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
